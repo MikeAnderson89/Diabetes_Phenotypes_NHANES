@@ -1,0 +1,46 @@
+*.txt
+*.json
+*.xlsx
+*.csv
+*.xpt
+.idea/
+*.idea/
+.gz
+*-ubyte
+*-ubyte.gz
+*.png
+*.npz
+*.citeseer.*
+*.log
+
+
+# JetBrains
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & models (adjust to your project)
+*.pkl
+*.pt
+*.pth
+*.h5
+data/
+models/
